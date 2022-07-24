@@ -9,7 +9,7 @@ import { Tabelog } from "./pages/Tabelog";
 const App = () => {
   return (
     <BrowserRouter>
-      <h1>React app</h1>
+      <h1 class="title_name">React app</h1>
       {/* 🔽 追加 */}
       <ul>
         <li>
@@ -19,7 +19,7 @@ const App = () => {
           <Link to="/janken">じゃんけん</Link>
         </li>
         <li>
-          <Link to="/tabelog">お店検索</Link>
+          <Link to="/tabelog" style={{color: 'red'}}>お店検索</Link>
         </li>
       </ul>
       <hr />
