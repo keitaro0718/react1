@@ -1,3 +1,8 @@
+<!-- 実装した機能の紹介 -->
+<!-- 寿司・焼肉・ラーメンの中から食べたいものを選択すると、ランダムで食べログの評価の高いお店３店舗から、おすすめを紹介する機能をつけました。
+リンクも表示させ、お店の簡単な紹介ができるところまで行きたかったのですが、リンクを表示させることができず止まってしまいました。 -->
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
