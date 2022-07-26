@@ -19,6 +19,9 @@ const App = () => {
           <Link to="/janken">じゃんけん</Link>
         </li>
         <li>
+          <Link to="/book-create">投稿する</Link>
+        </li>
+        <li>
           <Link to="/tabelog" style={{color: 'red'}}>お店検索</Link>
         </li>
       </ul>
@@ -26,6 +29,7 @@ const App = () => {
       <Routes>
         <Route path="/omikuji" element={<Omikuji />} />
         <Route path="/janken" element={<Janken />} />
+        <Route path="/book-create" element={<BookCreate />} />
         <Route path="/tabelog" element={<Tabelog />} />
       </Routes>
     </BrowserRouter>
